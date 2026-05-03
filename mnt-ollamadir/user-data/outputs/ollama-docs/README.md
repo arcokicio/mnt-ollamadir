@@ -40,13 +40,3 @@ ollama pull codellama
 DOC_DIR=../bot-vendas node query.js "como eu adiciono suporte ao Rappi?"
 ```
 
-## Modelos recomendados para o seu caso
-
-| Modelo       | Uso ideal                        | Tamanho |
-|--------------|----------------------------------|---------|
-| `llama3`     | Perguntas gerais + código        | 4.7 GB  |
-| `codellama`  | Código e debug                   | 3.8 GB  |
-| `mistral`    | Rápido, bom custo/benefício      | 4.1 GB  |
-| `phi3`       | Leve, bom para hardware limitado | 2.3 GB  |
-
-Se a conta de luz for preocupação: use `phi3` — consome menos CPU/GPU.
